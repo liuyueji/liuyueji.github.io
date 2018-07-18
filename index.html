@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	for (var i =1; i < 7; i++) {
+		console.log('%c%s',"font-size:20px",(i/7).toString().slice(0,14))
+		var a = (i/7).toString();
+		document.write(i+'除以7 = '+((i/7).toString().slice(0,a.indexOf('.')+13))+"<br>")
+	};
+	</script>
+</body>
+</html>
